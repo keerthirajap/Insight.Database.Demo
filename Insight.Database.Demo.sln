@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight.Database.Demo.Part1", "Insight.Database.Demo.Part1\Insight.Database.Demo.Part1.csproj", "{4A9D57CB-D454-4375-9794-29A0A8FC7DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insight.Database.Demo.Part1", "Insight.Database.Demo.Part1\Insight.Database.Demo.Part1.csproj", "{4A9D57CB-D454-4375-9794-29A0A8FC7DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight.Database.Demo.Part1.UnitTest", "Insight.Database.Demo.Part1.UnitTest\Insight.Database.Demo.Part1.UnitTest.csproj", "{DB38BC0E-E934-4088-861F-411C6711E554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4A9D57CB-D454-4375-9794-29A0A8FC7DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A9D57CB-D454-4375-9794-29A0A8FC7DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A9D57CB-D454-4375-9794-29A0A8FC7DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB38BC0E-E934-4088-861F-411C6711E554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB38BC0E-E934-4088-861F-411C6711E554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB38BC0E-E934-4088-861F-411C6711E554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB38BC0E-E934-4088-861F-411C6711E554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,5 +8,14 @@
     public interface IWeatherForecastRepository
     {
         List<WeatherForecast> GetAllWeatherForecast();
+
+        [Sql("[dbo].[P_GetAllWeatherForecast]")]
+        Task<List<WeatherForecast>> GetAllWeatherForecastAsync();
+
+        [Sql("[dbo].[P_AddWeatherForecasts]")]
+        Task AddWeatherForecastsAsync(List<WeatherForecast> WeatherForecasts);
+
+        [Sql("[dbo].[P_GetAddWeatherForecastsAndSummary]")]
+        Task<Results<WeatherForecast, SummaryDim>> GetAddWeatherForecastsAndSummaryAsync(List<WeatherForecast> WeatherForecasts_New);
     }
 }
